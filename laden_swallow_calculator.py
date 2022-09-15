@@ -5,4 +5,4 @@ def swallowCalc():
     swallow_capacity = 20
     return coconut/swallow_capacity
 
-print(swallowCalc())
+print(int(swallowCalc()))
