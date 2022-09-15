@@ -3,4 +3,4 @@
 coconut = 454
 swallow_capacity = 20
 
-print(coconut / swallow_capacity)
+print(int(coconut / swallow_capacity))
