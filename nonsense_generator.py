@@ -2,10 +2,12 @@
 # https://www.youtube.com/watch?v=h4idB5KAfyc
 import random
 
+
 words_1 = ["Hyperdimentional", "Electron", "hyperspace", "Pocket Universe", "Photon", "Wave", "Beam", "Antigravity",
            "Cyberspace"]
 words_2 = ["Combuster", "Emitter", "Dampener", "Array", "Android", "Cyborg", "Torpedo", "Sail", "Terraformner",
            "Alien", "Elevator"]
 
 
-print(random.choice(words_1) + " " + random.choice(words_2))
+def greet_nonsense(name):
+    print(f'Hi {name}, here is some nonsense: {random.choice(words_1)} + " " + {random.choice(words_2)}')
