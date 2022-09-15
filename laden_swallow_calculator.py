@@ -1,6 +1,8 @@
 # https://www.youtube.com/watch?v=liIlW-ovx0Y
 
-coconut = 454
-swallow_capacity = 20
+def swallowCalc(): 
+    coconut = 454
+    swallow_capacity = 20
+    return coconut/swallow_capacity
 
-print(coconut / swallow_capacity)
+print(swallowCalc())
